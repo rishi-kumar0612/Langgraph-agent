@@ -1,2 +1,0 @@
-open_AI_apikey = API_KEY = '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'
-fmp_api_key = "ndny8vJSZjTgXVneAbZZI2RanTOrWYGb"
