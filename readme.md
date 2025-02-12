@@ -1,4 +1,4 @@
-Below is a detailed report on how the Finance Agent project works, along with explanations on why LangGraph was chosen over LangChain. The report is written in simple, plain text—as you might include in a GitHub README file.
+Imagine you have a team where each person is an expert in a specific task—one checks the facts, another looks up extra details on the internet, and a third writes a summary. LangGraph acts like a clear roadmap that tells each team member when to do their part. This step-by-step process makes sure that all tasks are handled in order, resulting in a more organized and accurate answer for your question. LangChain is like a toolbox that helps with language tasks, but LangGraph gives you the overall plan that connects everything together.
 
 ─────────────────────────────  
 Finance Agent Project  
@@ -45,14 +45,9 @@ How It Works:
   The project uses Python’s asynchronous programming (async/await) so that it can process queries and API calls efficiently without waiting for each task to complete sequentially.
 
 ─────────────────────────────  
-Why LangGraph Over LangChain – Technical Explanation:  
+Why LangGraph Over LangChain:  
 
 LangGraph provides a graph-based approach to building workflows. In this project, it helps structure the entire conversation into a state graph where each node is a specialized agent. This design offers better clarity on the sequence of operations and dependencies between agents. With LangGraph, you can easily see and manage the flow from data fetching to web research and finally to output summarization. Although LangChain is powerful for LLM-based applications, LangGraph simplifies complex, multi-step processes by allowing developers to add or modify nodes without disturbing the overall workflow.
-
-─────────────────────────────  
-Why LangGraph Over LangChain – Non-Technical Explanation:  
-
-Imagine you have a team where each person is an expert in a specific task—one checks the facts, another looks up extra details on the internet, and a third writes a summary. LangGraph acts like a clear roadmap that tells each team member when to do their part. This step-by-step process makes sure that all tasks are handled in order, resulting in a more organized and accurate answer for your question. LangChain is like a toolbox that helps with language tasks, but LangGraph gives you the overall plan that connects everything together.
 
 ─────────────────────────────  
 Future Improvements and Further Features:  
